@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /depo
+exclude: ['README.md']
