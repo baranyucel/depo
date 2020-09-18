@@ -2,3 +2,12 @@
 layouts: default
 ---
 <h1> Yeni Sayfa </h1>
+
+<ul>
+  {% for yeni in site.posts %}
+  <li>
+      <a href="{{yeni.source}}">{{yeni.title}}</a>
+      <p>{{yeni.meta}}</p>
+  </li>
+  {% endfor %}
+</ul>
