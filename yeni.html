@@ -4,7 +4,7 @@ layouts: default
 <h1> Yeni Sayfa </h1>
 
 <ul>
-  {% for yeni in site.categories.yeni %}
+  {% for yeni in site.categories.yeni limit:1 %}
   <li>
       <a href="{{yeni.source}}">{{yeni.title}}</a>
       <p>{{yeni.meta}}</p>
