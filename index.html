@@ -8,10 +8,10 @@ layout: default
 
 
     <ol>
-      {%for degisken in site.categories.ilginc-haberler %}
+      {%for degisken in site.data.ilginc-haberler %}
       <li>
-         <a href="#">{{degisken.title}}</a>
-         {{degisken.content}}
+         <a href="{{site.baseurl}}/degisken/{{degisken.folder}}/">{{degisken.title}}</a>
+         {{degisken.content | markdownify }}
       </li>
       {% endfor %}
     </ol>
