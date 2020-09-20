@@ -4,5 +4,16 @@ layout: default
     <h1> Kursta öğrendiklerimi not edeceğim.</h1>
     <p> Bu değişiklik ile komut satırında jekyll' i çalıştırmayı öğrendim.</p> </br>
     Komut satırına, jekyll serve --watch --baseurl "" yazdım ve jekyll çalışmaya başladı.
-    <p> selam </p>
+    <h2>İlginc Haberler</h2>
+
+
+    <ol>
+      {%for degisken in site.categories.ilginc-haberler %}
+      <li>
+         <a href="#">{{degisken.title}}</a>
+         {{degisken.content}}
+      </li>
+      {% endfor %}
+    </ol>
+
     <p> bu sekilde bir degisiklik yaptım </p>

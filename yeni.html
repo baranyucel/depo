@@ -4,7 +4,7 @@ layout: haberler
 <h1> Yeni Sayfa </h1>
 
 <ul>
-  {% for yeni in site.categories.yeni limit:3 %}
+  {% for yeni in site.categories.yeni %}
   <li>
       <a href="{{site.baseurl}}{{yeni.url}}">{{yeni.title}}</a>
       <p>{{yeni.meta}}</p>

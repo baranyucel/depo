@@ -4,9 +4,9 @@ layout: haberler
 <h1> Farklı Sayfa </h1>
 
 <ul>
-  {% for yeni in site.categories.son-dakika-haberleri limit:3 %}
+  {% for yeni in site.categories.son-dakika-haberleri %}
   <li>
-      <a href="">{{yeni.title}}</a>
+      <a href="{{site.baseurl}}{{yeni.url}}">{{yeni.title}}</a>
       <p>{{yeni.meta}}</p>
   </li>
   {% endfor %}
