@@ -4,11 +4,35 @@ layout: default
 
 <h1>KOMPLEKS</h1>
 
-<h2>Yazılarım</h2>
+<h2>Yazılarım-1</h2>
 
 <ul>
   {% for kompleks in site.pages %}
   {% if kompleks.type == 'yazılarım-1' %}
+  <li>
+     {{kompleks.title}}
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>Yazılarım-2</h2>
+
+<ul>
+  {% for kompleks in site.pages %}
+  {% if kompleks.type == 'yazılarım-2' %}
+  <li>
+     {{kompleks.title}}
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>Yazılarım-3</h2>
+
+<ul>
+  {% for kompleks in site.pages %}
+  {% if kompleks.type == 'yazılarım-3' %}
   <li>
      {{kompleks.title}}
   </li>
