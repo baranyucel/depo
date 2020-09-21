@@ -1,14 +1,14 @@
 ---
-layout: kompleks
-title: Jupiter
-meta: Jupiter insanlar için yaşanabilir bir gezegen mi
-type: yazılarım-2
+layout: kompleksler
+title: Mars
+meta: Mars insanlar için yaşanabilir bir gezegen mi
+type: yazilarim-1
 discoverer: Giuseppe Piazzi
 discovered: 1950-01-01
-orbit: 8.6 years
-radius: 887 km
-tilt: 8°
-image: jupiter.jpg
+orbit: 4.6 years
+radius: 487 km
+tilt: 3°
+image: mars.jpg
 source: https://mars.nasa.gov/
 ---
 

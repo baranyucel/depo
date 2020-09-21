@@ -1,14 +1,14 @@
 ---
-layout: kompleks
-title: Pluton
-meta: Pluton insanlar için yaşanabilir bir gezegen mi
-type: yazılarım-3
+layout: kompleksler
+title: Saturn
+meta: Saturn insanlar için yaşanabilir bir gezegen mi
+type: yazilarim-2
 discoverer: Giuseppe Piazzi
 discovered: 1950-01-01
-orbit: 2.6 years
-radius: 287 km
-tilt: 1°
-image: pluton.jpg
+orbit: 9.6 years
+radius: 987 km
+tilt: 9°
+image: saturn.jpg
 source: https://mars.nasa.gov/
 ---
 

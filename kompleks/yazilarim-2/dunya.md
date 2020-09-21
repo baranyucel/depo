@@ -1,14 +1,14 @@
 ---
-layout: kompleks
-title: Neptun
-meta: Neptun insanlar için yaşanabilir bir gezegen mi
-type: yazılarım-3
+layout: kompleksler
+title: Dunya
+meta: Dunya insanlar için yaşanabilir bir gezegen mi
+type: yazilarim-2
 discoverer: Giuseppe Piazzi
 discovered: 1950-01-01
-orbit: 10.6 years
-radius: 387 km
-tilt: 2°
-image: neptun.jpg
+orbit: 7.6 years
+radius: 787 km
+tilt: 7°
+image: dunya.jpg
 source: https://mars.nasa.gov/
 ---
 

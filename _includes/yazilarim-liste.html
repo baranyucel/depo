@@ -1,0 +1,11 @@
+<ul>
+  {% for kompleksler in site.pages %}
+    {% if kompleksler.type == include.type %}
+      <li>
+        <img src="{{site.baseurl}}/img/kompleks/{{kompleksler.image}}" alt="{{kompleksler.title}} Fotografıdır. ">
+        {{kompleksler.title}}
+        <p>{{kompleksler.meta}}</p>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -1,14 +1,14 @@
 ---
-layout: kompleks
-title: Mars
-meta: Mars insanlar için yaşanabilir bir gezegen mi
-type: yazılarım-1
+layout: kompleksler
+title: Uranus
+meta: Uranus insanlar için yaşanabilir bir gezegen mi
+type: yazilarim-3
 discoverer: Giuseppe Piazzi
 discovered: 1950-01-01
-orbit: 4.6 years
-radius: 487 km
-tilt: 3°
-image: mars.jpg
+orbit: 1.6 years
+radius: 187 km
+tilt: 9°
+image: uranus.jpg
 source: https://mars.nasa.gov/
 ---
 

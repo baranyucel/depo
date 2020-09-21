@@ -1,14 +1,14 @@
 ---
-layout: kompleks
-title: Dunya
-meta: Dunya insanlar için yaşanabilir bir gezegen mi
-type: yazılarım-2
+layout: kompleksler
+title: Jupiter
+meta: Jupiter insanlar için yaşanabilir bir gezegen mi
+type: yazilarim-2
 discoverer: Giuseppe Piazzi
 discovered: 1950-01-01
-orbit: 7.6 years
-radius: 787 km
-tilt: 7°
-image: dunya.jpg
+orbit: 8.6 years
+radius: 887 km
+tilt: 8°
+image: jupiter.jpg
 source: https://mars.nasa.gov/
 ---
 

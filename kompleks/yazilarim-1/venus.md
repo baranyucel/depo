@@ -1,8 +1,8 @@
 ---
-layout: kompleks
+layout: kompleksler
 title: Venus
 meta: Venus insanlar için yaşanabilir bir gezegen mi
-type: yazılarım-1
+type: yazilarim-1
 discoverer: Giuseppe Piazzi
 discovered: 1950-01-01
 orbit: 6.6 years
