@@ -2,9 +2,11 @@
   {% for kompleksler in site.pages %}
     {% if kompleksler.type == include.type %}
       <li>
-        <img src="{{site.baseurl}}/img/kompleks/{{kompleksler.image}}" alt="{{kompleksler.title}} Fotografıdır. ">
-        {{kompleksler.title}}
+        <a href="{{site.baseurl}}{{kompleksler.url}}">
+        <img src="{{site.baseurl}}/img/kompleks/{{kompleksler.image}}" alt="{{kompleksler.title}} Fotografıdır.">
+        <h3>{{kompleksler.title}}</h3>
         <p>{{kompleksler.meta}}</p>
+        </a>
       </li>
     {% endif %}
   {% endfor %}
