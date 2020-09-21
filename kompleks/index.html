@@ -3,3 +3,15 @@ layout: default
 ---
 
 <h1>KOMPLEKS</h1>
+
+<h2>Yazılarım</h2>
+
+<ul>
+  {% for kompleks in site.pages %}
+  {% if kompleks.type == 'yazılarım-1' %}
+  <li>
+     {{kompleks.title}}
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
