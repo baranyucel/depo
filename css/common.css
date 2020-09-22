@@ -4,6 +4,20 @@ html {
 
   font: normal 100%/1.4 Georgia,serif;
 }
+
+.masthead {
+  padding: 1em;
+
+  background: #000531 url("../img/mavi.jpg") no-repeat center center;
+  background-size: cover;
+
+  color: #fff;
+}
+
+.masthead-kompleks {
+  background-image: url("../img/siyah.jpg");
+}
+
 .current {
   background-color: #000531;
   color: #fff;
