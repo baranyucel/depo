@@ -1,0 +1,12 @@
+.masthead {
+  padding: 1em;
+
+  background: #000531 url("../img/mavi.jpg") no-repeat center center;
+  background-size: cover;
+
+  color: #fff;
+}
+
+.masthead-kompleks {
+  background-image: url("../img/siyah.jpg");
+}
