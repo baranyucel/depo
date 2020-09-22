@@ -6,14 +6,32 @@ layout: default
     Komut satırına, jekyll serve --watch --baseurl "" yazdım ve jekyll çalışmaya başladı.
     <h2>İlginc Haberler</h2>
 
-
     <ol>
       {%for degisken in site.data.ilginc-haberler %}
       <li>
-         <a href="{{site.baseurl}}/kompleks/{{degisken.folder}}/">{{degisken.title}}</a>
+         <a href="{{site.baseurl}}/kompleks/{{planet.folder}}/">{{degisken.title}}</a>
          {{degisken.content | markdownify }}
       </li>
       {% endfor %}
     </ol>
 
-    <p> bu sekilde bir degisiklik yaptım </p>
+    <h2>Son Dakika Haberleri</h2>
+    <ul>
+      {%for yeni in site.categories.son-dakika-haberleri limit:3 %}
+      <li>
+         <a href="{{site.baseurl}}{{yeni.url}}">{{yeni.title}}></a>
+         <p>{{yeni.meta}}</p>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <h2>Yeni Haberler</h2>
+
+    <ol>
+      {%for farkli in site.categories.yeni %}
+      <li>
+         <a href="{{site.baseurl}}{{yeni.url}}/">{{farkli.title}}</a>
+         <p>{{yeni.meta}}</p>
+      </li>
+      {% endfor %}
+    </ol>
