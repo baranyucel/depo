@@ -1,0 +1,13 @@
+---
+layout: default
+title: Koleksiyon
+---
+
+<h1>Koleksiyon</h1>
+
+{% for koleksi in site.koleksiyon %}
+  <h2>{{koleksi.title}}</h2>
+  <img src="{{site.baseurl}}/img/{{koleksi.img}}" alt="">
+  <a href="{{site.baseurl}}{{koleksi.url}}">Daha fazlası için {{koleksi.title}}</a>
+
+{% endfor %}
