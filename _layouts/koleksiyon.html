@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<strong>Koleksiyon</strong>
+
+<nav>
+  <ul>
+    {%for koleksi in site.koleksiyon %}
+    <li>
+       <a href="{{site.baseurl}}/koleksiyon/{{koleksi.slug}}/" class="{% if page.url contains koleksi.slug %}current{% endif %}">{{koleksi.title}}</a>
+
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
+
+{{content}}

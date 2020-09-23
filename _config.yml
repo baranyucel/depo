@@ -2,3 +2,8 @@ markdown: kramdown
 baseurl: /depo
 exclude: ['README.md']
 permalink: pretty
+
+collections:
+  koleksiyon:
+    output: true
+    permalink: /koleksiyon/:path/  
