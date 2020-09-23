@@ -1,3 +1,4 @@
 markdown: kramdown
 baseurl: /depo
 exclude: ['README.md']
+permalink: pretty
