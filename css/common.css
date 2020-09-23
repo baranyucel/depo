@@ -3,4 +3,18 @@ html {
   padding: 0;
 
   font: normal 100%/1.4 Georgia,serif;
+  background-color: limegreen;
+}
+
+h1, strong, h2 {
+  color: white;
+}
+
+h2 {
+  background-color: darkblue;
+  color: lightblue;
+}
+
+p {
+  background-color: yellow;
 }
