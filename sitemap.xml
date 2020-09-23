@@ -7,12 +7,18 @@
    {% for post in site.posts %}
      {% if page.layout %}
        {% include sitemap-entry.xml entry=post %}
-     {% endif %} 
+     {% endif %}
    {% endfor %}
 
    {% for page in site.pages %}
      {% if page.layout %}
        {% include sitemap-entry.xml entry=page %}
+     {% endif %}
+   {% endfor %}
+
+   {% for koleksi in site.koleksiyon %}
+     {% if koleksi.layout %}
+       {% include sitemap-entry.xml entry=koleksi %}
      {% endif %}
    {% endfor %}
 
