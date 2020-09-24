@@ -27,3 +27,24 @@ h1 + p {
   background-color: black;
   color: white;
 }
+
+ul li:first-child {
+  background-color:  purple;
+}
+
+ul li:last-child {
+  background-color: lightgreen;
+}
+
+.xyz li:nth-child(even) {
+  background-color: lightpink;
+}
+
+.xyz li:nth-child(odd) {
+  background-color: orange;
+}
+
+.xyz li:nth-child(4) {
+background-color: black;
+color: white; 
+}
