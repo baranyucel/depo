@@ -18,3 +18,9 @@
 .nav-top {
   font-size: 1.50rem;
 }
+
+.sekme {
+position: absolute;
+top: 90px;
+right: 90px;
+}
