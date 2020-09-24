@@ -18,3 +18,12 @@ h2 {
 p {
   background-color: yellow;
 }
+
+a {
+  color: white;
+}
+
+h1 + p {
+  background-color: black;
+  color: white;
+}
