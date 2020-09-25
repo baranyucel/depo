@@ -3,16 +3,16 @@ html {
   padding: 0;
 
   font: normal 100%/1.4 Georgia,serif;
-  background-color: #ff0000;
+  background-color: ##faf8f7;
 }
 
 h1, strong, h2 {
-  color: white;
+  color: black;
 }
 
 h2 {
-  background-color: darkblue;
-  color: lightblue;
+  background-color: black;
+  color: white;
 }
 
 p {
@@ -20,20 +20,21 @@ p {
 }
 
 a {
-  color: #ffffff;
+  color: #000000;
+  font-style: oblique;
+  font-family: sans-serif;
 }
 
 h1 + p {
-  background-color: black;
-  color: white;
+  color: black;
 }
 
 ul li:first-child {
-  background-color:  purple;
+
 }
 
 ul li:last-child {
-  background-color: lightgreen;
+
 }
 
 .xyz li:nth-child(even) {
