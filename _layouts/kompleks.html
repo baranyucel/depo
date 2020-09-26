@@ -2,17 +2,15 @@
 layout: default
 ---
 
-<strong>Kompleks</strong>
-
-<nav>
-  <ul>
+<nav class="merkeziyetsiz">
+  <ol>
     {%for degisken in site.data.ilginc-haberler %}
     <li>
        <a href="{{site.baseurl}}/kompleks/{{degisken.folder}}/" class="{% if page.url contains degisken.folder %}current{% endif %}">{{degisken.title}}</a>
 
     </li>
     {% endfor %}
-  </ul>
+  </ol>
 </nav>
 
 {{content}}

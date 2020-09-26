@@ -1,11 +1,8 @@
 ---
 layout: haberler-makaleler
-title: Bugun neler oldugunu ogrenin
-meta: Bugun pek bir sey olmadıgını haberin bu kısmında gorebilirsiniz.
+title: Oyun-2
+meta: Oyun Oynayalım
 source: https://medium.com/@baranyucel/merkeziyetsizli%C4%9Fin-etkileri-s%C4%B1n%C4%B1rs%C4%B1z-arz-ve-kalpazanl%C4%B1k-sorunu-a87aa909d893
 category: yeni
 ---
-İtibari kağıt paralar özünde değeri olmayan ucuz hammaddeler ile üretilen paralardır.
-
-Örneğin çeşitli sebepler ile para üretimini arttıran bir kurum, mal ve hizmetler sabitken para miktarında ki artıştan dolayı paranın değerinin mal ve hizmetler karşısında azalmasına yani fiyatların artmasına sebep olacaktır.
-Dolayısıyla paranın alım gücü düşmüş olacaktır.
+Bu alan boş

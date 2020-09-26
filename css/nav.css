@@ -21,10 +21,15 @@
 
 .sekme {
 position: absolute;
-top: 90px;
-right: 90px;
+top: 30px;
+right: 30px;
 }
 
 .sitebaslik {
   color: black;
+}
+
+.merkeziyetsiz {
+  color: red;
+
 }

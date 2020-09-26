@@ -4,10 +4,10 @@ titleAfter: Hoş Geldin
 meta: Web Siteme Hoş geldin
 priority: 1.0
 ---
-    <h1> Kursta öğrendiklerimi not edeceğim.</h1>
-    <p> Bu değişiklik ile komut satırında jekyll' i çalıştırmayı öğrendim.</p> </br>
-    <p>Komut satırına, jekyll serve --watch --baseurl "" yazdım ve jekyll çalışmaya başladı.</p>
-    <h2>İlginc Haberler</h2>
+    <h1></h1>
+    <p></p> </br>
+
+    <h2>İçerik</h2>
 
     <ol>
       {%for degisken in site.data.ilginc-haberler %}
@@ -18,17 +18,7 @@ priority: 1.0
       {% endfor %}
     </ol>
 
-    <h2>Son Dakika Haberleri</h2>
-    <ul>
-      {%for yeni in site.categories.son-dakika-haberleri limit:3 %}
-      <li>
-         <a href="{{site.baseurl}}{{yeni.url}}">{{yeni.title}}></a>
-         <p>{{yeni.meta}}</p>
-      </li>
-      {% endfor %}
-    </ul>
-
-    <h2>Yeni Haberler</h2>
+    <h2>Oyunlar</h2>
 
     <ol>
       {%for farkli in site.categories.yeni %}
@@ -38,21 +28,3 @@ priority: 1.0
       </li>
       {% endfor %}
     </ol>
-
-<h2>Deneme</h2>
-
-<ol>
-  <ul>
-    <li>Birinci</li>
-    <li>İkinci</li>
-    <li>Üçüncü</li>
-    <li>Dördüncü</li>
-  </ul>
-</ol>
-
-<ul class="xyz">
-  <li>Beşinci</li>
-  <li>Altıncı</li>
-  <li>Yedinci</li>
-  <li>Sekizinci</li>
-</ul>

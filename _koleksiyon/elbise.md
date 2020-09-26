@@ -1,7 +1,7 @@
 ---
 layout: koleksiyon
-title: "Elbise koleksiyonu"
-img: "koleksiyon/elbise.jpg"
+title: "Boş"
+img: "koleksiyon/bos.jpeg"
 ---
 
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb yüzlerce talihliden biri olabilirsiniz. Yapmanız gereken tek şey siparişinizi verdikten sonra istediğiniz hediyeyi seçmek.
