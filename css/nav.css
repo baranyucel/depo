@@ -23,6 +23,7 @@
 position: absolute;
 top: 30px;
 right: 30px;
+
 }
 
 .sitebaslik {
@@ -31,5 +32,5 @@ right: 30px;
 
 .merkeziyetsiz {
   color: red;
-
+  font-size: 1.5rem;
 }

@@ -2,8 +2,9 @@ html {
   margin: 0;
   padding: 0;
 
-  font: normal 100%/1.4 Georgia,serif;
+
   background-color: ##faf8f7;
+  font: normal 1rem/1.5 georgia,serif;
 }
 
 h1, strong, h2 {
@@ -13,12 +14,14 @@ h1, strong, h2 {
 h2 {
   background-color: black;
   color: white;
+  font-family: verdana, sans-serif;
 }
 
 a {
   color: #000000;
   font-style: oblique;
   font-family: sans-serif;
+  font-size: 1.5rem;
 }
 
 h1 + p {
