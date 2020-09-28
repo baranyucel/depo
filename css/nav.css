@@ -21,13 +21,9 @@
 
 .sekme {
 position: absolute;
-top: 30px;
-right: 30px;
-
-}
-
-.sitebaslik {
-  color: black;
+top: 80px;
+right: 420px;
+left: 680px;
 }
 
 .merkeziyetsiz {

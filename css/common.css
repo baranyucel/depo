@@ -24,8 +24,30 @@ a {
   font-size: 1.5rem;
 }
 
-h1 + p {
+a:link {
+  color: darkgreen;
+}
+
+a:visited {
   color: black;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:focus {
+  color: blue;
+}
+
+a:active {
+  color: red;
+}
+
+h1 {
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 ul li:first-child {
