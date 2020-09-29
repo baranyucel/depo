@@ -5,22 +5,35 @@
     <title> {% if page.title %}{{page.title}} · {% endif %}Zeki Baran Yücel{% if.page.titleAfter %} · {{page.titleAfter}}{% endif %} </title>
     <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
     <meta name="description" content="{{page.meta}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-<header class="masthead {{page.mastheadClass}}">
-  <h1></h1>
+   <header class="masthead {{page.mastheadClass}}">
+
+    <div class="header">
+       <h1>Zeki Baran Yücel</h1>
+    </div>
+
 {% include nav.html navclass='nav-top' %}
-</header>
+   </header>
 
     {{content}}
 
-<footer>
+    <div class="menu">
+      <ul>
+        <li>Birinci</li>
+        <li>ikinci</li>
+        <li>Üçüncü</li>
+        <li>Dördüncü</li>
+      </ul>
+    </div>
 
 
 
-<p>  </p>
 
-</footer>
+   <footer>
+
+   </footer>
 
   </body>
 </html>

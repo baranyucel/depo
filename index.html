@@ -4,25 +4,21 @@ titleAfter: Hoş Geldin
 meta: Web Siteme Hoş geldin
 priority: 1.0
 ---
-    <h1>Zeki Baran Yücel</h1>
-    <p></p> </br>
-
-    <h2>İçerik</h2>
-
+    <h2 class="main">İçerik</h2>
     <ol>
       {%for degisken in site.data.ilginc-haberler %}
-      <li>
+      <li class="main">
          <a href="{{site.baseurl}}/kompleks/{{planet.folder}}/">{{degisken.title}}</a>
          {{degisken.content | markdownify }}
       </li>
       {% endfor %}
     </ol>
 
-    <h2>Oyunlar</h2>
+    <h2 class="main">Oyunlar</h2>
 
     <ol>
       {%for farkli in site.categories.yeni %}
-      <li>
+      <li class="main">
          <a href="{{site.baseurl}}{{yeni.url}}/">{{farkli.title}}</a>
          <p>{{yeni.meta}}</p>
       </li>
