@@ -12,8 +12,7 @@ h1, strong, h2 {
 }
 
 h2 {
-  background-color: black;
-  color: white;
+  color: black;
   font-family: verdana, sans-serif;
 }
 
@@ -48,25 +47,4 @@ h1 {
   color: black;
   text-transform: uppercase;
   text-align: center;
-}
-
-ul li:first-child {
-
-}
-
-ul li:last-child {
-
-}
-
-.xyz li:nth-child(even) {
-  background-color: lightpink;
-}
-
-.xyz li:nth-child(odd) {
-  background-color: orange;
-}
-
-.xyz li:nth-child(4) {
-background-color: black;
-color: white;
 }

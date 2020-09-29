@@ -1,6 +1,6 @@
 ---
 layout: kompleksler
-title: Blockchain
+title: Blockchain - Mutabakat Algoritmaları
 meta:
 type: yazilarim-2
 discoverer: Giuseppe Piazzi
@@ -25,7 +25,7 @@ source: https://mars.nasa.gov/
 - Birincisi yeni blok ekleme ödülüdür. Bu ödül aynı zamanda sistemde ki yeni para arzının da tek kaynağıdır. Paranın kontrolü merkezi bir yapıda olmadığından paranın basılması yani isteğe bağlı üretilmesi söz konusu değildir. Blok oluşturma ödülü ile madenciler ödül olarak belirli miktarlarda Bitcoin elde eder. Bitcoin aynı zamanda arzı sınırlı bir kripto para birimidir. Bu sebeple her 4 yılda bir blok ödülü yarıya indirilir.
 - Madencilerin elde edeceği ikinci gelir ise işlem komisyonudur. Kullanıcıların gerçekleştirdiği her işlemde gönderici belirli miktarda komisyon ödemektedir. Bu ödeme zorunlu olmamakla birlikte işlemin aktarım süresinin kısalması için zorunludur.
 
-<img src="/img/kompleks/sayfaici-1.png"  alt="">
+ <img src="/img/kompleks/sayfaici-1.png"  alt="">
 
 <h2>Mutabakat Algoritmaları</h2>
 - Mutabakat algoritmaları, kullanıcıların kendi aralarında yaptıkları işlemlerin onaylanması için tasarlanmış mekanizmadır. Blok zincirleri merkezi olmadığından dağıtık sistemler olarak oluşturulmuştur. İşlemlerin geçerliliği için dağıtık node’ların mutabakata varması gerekmektedir.
