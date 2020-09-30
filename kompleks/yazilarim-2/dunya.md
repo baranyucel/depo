@@ -15,6 +15,8 @@ source: https://mars.nasa.gov/
 - Blok Zinciri teknolojisi, üzerine inşa edilen kripto paralar ve merkeziyetsiz finans ekosistemi haricinde gelecekte, Tedarik Zinciri, Sağlık Hizmetleri, Yönetişim Sistemleri ve Nesnelerin İnterneti gibi birçok alanda yaygın bir biçimde kullanılacaktır.
 - Bu bağlamda yazıda öncelikle Blok Zinciri teknolojisine değinip daha sonra çalışma metodunu anlayabilmek adına bazı mutabakat algoritmalarını inceleyeceğiz.
 
+<hr>
+
 <h2>Blok Zinciri</h2>
 - Blok zinciri teknolojisi, herhangi bir aracıya ihtiyaç duyulmadan, dağınık veri yapısında, kullanıcılar tarafından onaylanan blokların sistematik bir biçimde arka arkaya eklenmesiyle zincirlerin oluşması prensibine dayanır.
 - Merkeziyetsiz ve dağıtık yapısından dolayı blok zinciri merkezi bir hatadan etkilenmeyeceği gibi kişilere veya kurumlara güven duyulmasını gerektirmeyecektir. Güvenlik sistemi ve işleyiş birbirlerine güvenmeyen madenciler tarafından sağlanır. Blok zinciri yalnız Bitcoin’in değil birçok kripto paranın da kullandığı bir teknolojidir.
@@ -27,9 +29,13 @@ source: https://mars.nasa.gov/
 
  <img src="/img/kompleks/sayfaici-1.png"  alt="">
 
+ <hr>
+
 <h2>Mutabakat Algoritmaları</h2>
 - Mutabakat algoritmaları, kullanıcıların kendi aralarında yaptıkları işlemlerin onaylanması için tasarlanmış mekanizmadır. Blok zincirleri merkezi olmadığından dağıtık sistemler olarak oluşturulmuştur. İşlemlerin geçerliliği için dağıtık node’ların mutabakata varması gerekmektedir.
 - Bu noktada mutabakat algoritmaları protokol kurallarına uyulmasını sağlayarak kullanıcıların işlemlerini güvenli bir biçimde gerçekleştirmelerini sağlar.
+
+<hr>
 
 <h2>Emek İspatı</h2>
 
@@ -39,6 +45,8 @@ source: https://mars.nasa.gov/
 - Bitcoin ’de bir blok yayınlanmadan önce o bloğun güvenliğini belirleyen ve bir önceki blokların güvenliğini arttıran kriptografik özet fonksiyonu kullanılarak bir bulmaca tanımlanır ve bu bulmacayı çözen ilk düğüm bu bloğu yayınlama hakkına sahip olmaktadır.
 - Bu bulmacanın çözümünde yoğun miktarda enerji harcanmakta olup ve bu çözümün kendisi ‘kanıt/ispat’ olarak tanımlanmaktadır. Emek ispatı uygulanabilir bir mutabakat protokolü ortaya koymuştur.
 - Bu sayede P2P (kullanıcıdan kullanıcıya) para transferlerinde aracı ihtiyacını ortadan kaldırarak işlem masraflarında büyük oranda düşüş sağlamıştır.
+
+<hr>
 
 <h2>Hisse İspatı</h2>
 
@@ -50,6 +58,8 @@ source: https://mars.nasa.gov/
 - Hisse İspatında madencilik faaliyetleri bir nevi cüzdanda bulunan coinler ile yürütülür. Kişinin cüzdanında ne kadar çok coin bulunursa blok onaylayıcı olarak seçilme olasılığı o kadar yüksek olur.
 - Özet olarak bu yapının anlamı, kullanıcıların blok onaylayıcısı olma şansına sahip olma olasılığının elinde bulundurdukları para oranına eşit olmasıdır.
 
+<hr>
+
 <h2>Delege Edilmiş Hisse İspatı</h2>
 
 <img src="/img/kompleks/delegelihisseispati.png"  alt="">
@@ -60,6 +70,8 @@ source: https://mars.nasa.gov/
 - Örneğin Emek ispatında blok oluşturma şansını arttırabilmek için yüksek işlem gücüne sahip CPU’ lara sahip olmak gerekir. Hisse İspatında ise blok oluşturma hakkına sahip olmak için kişinin cüzdanında hisse yani mutabakatın yapılacağı paradan bulundurması gerekir. Delege Edilmiş Hisse İspatında da blokların oluşturulması için benzer bir yol izlenir.
 - Kullanıcılar, oy kullanarak blokların doğrulanmasını sağlayacak kişiyi seçer. Oy mekanizması ise Hisse İspatına benzer bir yöntemle ilerlemektedir. Cüzdanında en çok para bulunduran en çok oy hakkına sahip olur. Ancak bu sistemde blok üreticileri demokratik oylama ile seçileceğinden, yapacakları hatalarda saf dışı bırakılma riski taşırlar.
 - Bunun yanı sıra Delege edilmiş hisse ispatı, oylama sistemi sayesinde blok oluşturma sürecini hızlandırdığından saniye başına gerçekleşen işlem hızı Emek İspatı ve Hisse İspatından fazladır
+
+<hr>
 
 <h2>Faydalanılan Kaynaklar</h2>
 - Melaine Swan, Blockchain Blueprint for a New Economy
