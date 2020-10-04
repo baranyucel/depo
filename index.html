@@ -4,21 +4,21 @@ titleAfter: Hoş Geldin
 meta: Web Siteme Hoş geldin
 priority: 1.0
 ---
-    <h2 class="main">İçerik</h2>
+    <h2 class="header">İçerik</h2>
     <ol>
       {%for degisken in site.data.ilginc-haberler %}
-      <li class="main">
+      <li class="header">
          <a href="{{site.baseurl}}/kompleks/{{planet.folder}}/">{{degisken.title}}</a>
          {{degisken.content | markdownify }}
       </li>
       {% endfor %}
     </ol>
 
-    <h2 class="main">Oyunlar</h2>
+    <h2 class="header">Oyunlar</h2>
 
     <ol>
       {%for farkli in site.categories.yeni %}
-      <li class="main">
+      <li class="header">
          <a href="{{site.baseurl}}{{yeni.url}}/">{{farkli.title}}</a>
          <p>{{yeni.meta}}</p>
       </li>

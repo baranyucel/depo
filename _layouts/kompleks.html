@@ -5,7 +5,7 @@ layout: default
 <nav class="merkeziyetsiz">
   <ol>
     {%for degisken in site.data.ilginc-haberler %}
-    <li>
+    <li class="header">
        <a href="{{site.baseurl}}/kompleks/{{degisken.folder}}/" class="{% if page.url contains degisken.folder %}current{% endif %}">{{degisken.title}}</a>
 
     </li>
@@ -13,4 +13,4 @@ layout: default
   </ol>
 </nav>
 
-{{content}}
+<div class="header"> {{content}} </div>

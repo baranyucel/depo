@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<strong>içerik Bekliyor</strong>
+<strong class="header">içerik Bekliyor</strong>
 
 <nav>
   <ul>
     {%for koleksi in site.koleksiyon %}
-    <li>
+    <li class="header">
        <a href="{{site.baseurl}}/koleksiyon/{{koleksi.slug}}/" class="{% if page.url contains koleksi.slug %}current{% endif %}">{{koleksi.title}}</a>
 
     </li>
@@ -15,8 +15,10 @@ layout: default
   </ul>
 </nav>
 
+
+
 <h1>{{page.title}}</h1>
-<figure>
+<figure class="link">
 <img src="{{site.baseurl}}/img/{{page.img}}" alt="">
 <figcaption>{{content}}</figcaption>
 </figure>
