@@ -3,14 +3,14 @@ layout: default
 ---
 
 <nav class="merkeziyetsiz">
-  <ol>
+  <div>
     {%for degisken in site.data.ilginc-haberler %}
-    <li class="header">
+    <div class="header">
        <a href="{{site.baseurl}}/kompleks/{{degisken.folder}}/" class="{% if page.url contains degisken.folder %}current{% endif %}">{{degisken.title}}</a>
 
-    </li>
+    </div>
     {% endfor %}
-  </ol>
+  </div>
 </nav>
 
 <div class="header"> {{content}} </div>

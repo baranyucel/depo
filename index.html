@@ -5,22 +5,22 @@ meta: Web Siteme Hoş geldin
 priority: 1.0
 ---
     <h2 class="header">İçerik</h2>
-    <ol>
+    <div>
       {%for degisken in site.data.ilginc-haberler %}
-      <li class="header">
+      <div class="header">
          <a href="{{site.baseurl}}/kompleks/{{planet.folder}}/">{{degisken.title}}</a>
          {{degisken.content | markdownify }}
-      </li>
+      </div>
       {% endfor %}
-    </ol>
+    </div>
 
     <h2 class="header">Oyunlar</h2>
 
-    <ol>
+    <div>
       {%for farkli in site.categories.yeni %}
-      <li class="header">
+      <div class="header">
          <a href="{{site.baseurl}}{{yeni.url}}/">{{farkli.title}}</a>
          <p>{{yeni.meta}}</p>
-      </li>
+      </div>
       {% endfor %}
-    </ol>
+    </div>

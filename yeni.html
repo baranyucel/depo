@@ -6,11 +6,11 @@ changefreq: weekly
 ---
 <h2> Oyun Listesi </h2>
 
-<ul>
+<div>
   {% for yeni in site.categories.yeni %}
-  <li>
+  <div>
       <a href="{{site.baseurl}}{{yeni.url}}">{{yeni.title}}</a>
       <p>{{yeni.meta}}</p>
-  </li>
+  </div>
   {% endfor %}
-</ul>
+</div>
