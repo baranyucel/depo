@@ -7,3 +7,5 @@ collections:
   koleksiyon:
     output: true
     permalink: /koleksiyon/:path/
+
+theme: jekyll-theme-time-machine
