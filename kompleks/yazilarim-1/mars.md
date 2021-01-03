@@ -22,7 +22,7 @@ Merkeziyetsiz Finans kavramı da hayatımıza giren diğer tüm yenilikler gibi 
 - Merkeziyetsiz Finansın en önemli misyonu, aracıları ortadan kaldırarak, internet hizmetine erişim sağlayabilen tüm kişilerin finans dünyasına katılımını en güvenli şekilde sağlamaktır.
 - Merkeziyetsiz finans kavramından kısaca bahsettikten sonra yatırımcı davranışlarının geleneksel finans teorilerindeki tanımı ve zaman içerisindeki gelişimine göz atalım.
 
-<h2>Yatırımcı Davranışları</h2>
+<h2>YATIRIMCI DAVRANIŞLARI</h2>
 
 - İnsan çevresinden etkilenen, hisleri ve duyguları olan bir canlı türü olduğundan dolayı, insanın içinde bulunduğu her konuya psikolojik faktörler de dahil olmalıdır. Ancak geleneksel finans teorisi çerçevesinde insan, rasyonel olarak davranan ve varlıklarını maksimize etmeye çalışan bir canlı olarak kabul edilir.
 - Rasyonel insan, yatırım kararlarını verirken beklenen fayda teorisi çerçevesinde, etkin piyasalar hipotezinin varsayımları üzerine beklentilerini güncelleyebilen, yeterli bilgiye sahip olan, piyasaya yeni gelen bilgilere erişimi olan ve yaptığı hataları tekrar etmeyen bireyler olarak tanımlanır.
