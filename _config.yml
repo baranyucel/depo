@@ -1,0 +1,11 @@
+markdown: kramdown
+baseurl:
+exclude: ['README.md']
+permalink: pretty
+
+collections:
+  koleksiyon:
+    output: true
+    permalink: /koleksiyon/:path/
+
+theme: jekyll-theme-time-machine
