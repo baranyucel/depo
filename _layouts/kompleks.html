@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<nav class="merkeziyetsiz">
+  <div>
+    {%for degisken in site.data.ilginc-haberler %}
+    <div class="header">
+       <a href="{{site.baseurl}}/kompleks/{{degisken.folder}}/" class="{% if page.url contains degisken.folder %}current{% endif %}">{{degisken.title}}</a>
+
+    </div>
+    {% endfor %}
+  </div>
+</nav>
+
+<div class="header"> {{content}} </div>

@@ -1,0 +1,9 @@
+<url>
+  <loc>https://baranyucel.github.io{{site.baseurl}}{{include.entry.url}}</loc>
+  {% if include.entry.changefreq %}
+    <changefreq>weekyl</changefreq>
+  {% endif %}
+  {% if include.entry.priority %}
+    <priority>{{include.entry.priority}}</priority>
+  {% endif %}
+</url>
