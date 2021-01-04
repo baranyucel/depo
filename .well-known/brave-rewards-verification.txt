@@ -1,7 +1,4 @@
----
-layout: default
----
 This is a Brave Rewards publisher verification file.
 
 Domain: baranycl.com
-Token: e9c858bd062204dab4109352a7aae624ad5c5bf18d76e50f26399b2d9a1888ce
+Token: fe3503c7c59bd31826d39e153126b9b07cd1f0e473858d25e8db5dd35ba45005
