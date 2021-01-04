@@ -7,3 +7,10 @@ collections:
   koleksiyon:
     output: true
     permalink: /koleksiyon/:path/
+
+brave_site_verification  : a35ad4b159e3717bf9dd4a5941031a054d2afcb8f3516a1cb5474fc0240e40fc
+
+include:
+  - .htaccess
+  - _pages
+  - .well-known
